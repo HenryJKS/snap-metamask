@@ -30,8 +30,10 @@ export const onHomePage: OnHomePageHandler = async () => {
     content: (
       <Box>
         <Form name="input-form">
-          <Input name="input-text" placeholder="Your text" />
-          <Button type="submit">Transform</Button>
+          <Box direction="horizontal" alignment="space-around">
+            <Input name="input-text" placeholder="Your text" />
+            <Button type="submit">Transform</Button>
+          </Box>
         </Form>
       </Box>
     ),
