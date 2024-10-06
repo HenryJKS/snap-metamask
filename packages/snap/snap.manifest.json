@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "description": "My Snap HJK",
+  "proposedName": "Text Transformer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "GuDXv4nc6xgyDrSXVnX8WjWZE4xnfa/bJTxpmclfrNM=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "img/snap-image.svg",
+        "packageName": "transformer-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:page-home": {}
+  },
+  "manifestVersion": "0.1"
+}
